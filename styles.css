@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #363d44;
+  min-height: 100vh;
+}
+
+.menu {
+  box-shadow: -4px 15px 33px -5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -4px 15px 33px -5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -4px 15px 33px -5px rgba(0, 0, 0, 0.6);
+  background-color: #2d343a;
+}
+span {
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 25px;
+  display: none;
+}
+.containner {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 23px;
+  min-height: 100vh;
+}
+ul {
+  margin-top: 0;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  line-height: 48px;
+}
+a {
+  display: inline;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+#searchbar {
+  font-size: 20px;
+  background-color: rgb(180, 175, 175);
+  line-height: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.form {
+  float: right;
+  width: 50%;
+  display: flex;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 7px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 5px;
+  padding-top: 20px;
+}
+.info {
+  float: left;
+  width: 40%;
+  color: rgb(211, 209, 209);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  bottom: 0%;
+  position: relative;
+  background-color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  padding: 2px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+#username,
+#email,
+#password,
+#button {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 99%;
+  border-radius: 5px;
+}
+#button {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(65, 192, 65);
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+.footerbutton {
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  border-radius: 3px;
+  font-size: 20px;
+  border: blue 2px solid;
+  padding: 5px;
+  cursor: pointer;
+}
+#button:hover {
+  background-color: white;
+  color: green;
+}
+#signup:hover {
+  background-color: blue;
+  color: white;
+}
+#menubutton {
+  cursor: pointer;
+}
+#hide,
+#button2,
+#toggle,
+#head {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .containner {
+    min-height: 100vh;
+  }
+  .form {
+    display: none;
+  }
+  #head {
+    display: none;
+  }
+  .info {
+    position: relative;
+    width: 100%;
+    color: rgb(211, 209, 209);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .footer {
+    bottom: 0;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 70px;
+  }
+  #toggle {
+    display: block;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 5px;
+  }
+  ul li {
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  ul,
+  img {
+    display: none;
+  }
+  .tohide {
+    display: none;
+  }
+  #hide {
+    font-size: 20px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  #button2 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 192, 65);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 100%;
+  }
+  #button2:hover {
+    background-color: white;
+    color: green;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .containner {
+    min-height: 100vh;
+  }
+  .form {
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 7px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .info {
+    position: relative;
+    width: 100%;
+    color: rgb(211, 209, 209);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .footer {
+    bottom: 0;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 70px;
+  }
+  #toggle {
+    display: block;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 5px;
+  }
+  #head {
+    display: block;
+  }
+  ul li {
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  ul,
+  img,
+  h1 {
+    display: none;
+  }
+  .tohide {
+    display: none;
+  }
+  #hide {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
