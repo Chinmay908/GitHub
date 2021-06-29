@@ -3,4 +3,11 @@
 This is a Github clone made from scratch. It is a responsive website.
 
 ## Demonstration
-![Image of Yaktocat](https://github.com/Chinmay908/GitHub/images/githublogo.png)
+![GitHub Clone](/images/githubpic.png)
+
+## Tech Stack
+* HTML
+* CSS
+
+## Website
+Click here https://chinmay908.github.io/GitHub/ to view.
