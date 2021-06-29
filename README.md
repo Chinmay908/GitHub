@@ -1,4 +1,6 @@
 # GitHub
-This is a static website. Made using HTML,CSS and JS.
-Please view the demo here https://chinmay908.github.io/GitHub/
+## Introduction
+This is a Github clone made from scratch. It is a responsive website.
+
+## Demonstration
 
