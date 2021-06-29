@@ -10,4 +10,4 @@ This is a Github clone made from scratch. It is a responsive website.
 * CSS
 
 ## Website
-Click here https://chinmay908.github.io/GitHub/ to view.
+Click [here](https://chinmay908.github.io/GitHub/) to view my Github clone.
