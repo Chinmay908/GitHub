@@ -8,6 +8,7 @@ This is a Github clone made from scratch. It is a responsive website.
 ## Tech Stack
 * HTML
 * CSS
+* JAVASCRIPT
 
 ## Website
 Click [here](https://chinmay908.github.io/GitHub/) to view my Github clone.
